@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #282D35;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+  background-color: #21222A;
+}
+
+.navBar > h3 {
+  color: #61DAFB;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-items li {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.facts {
+  margin-top: 46px;
+}
+
+.facts > li {
+  max-width: 350px;
+  padding-block: 10px;
+}
+
+main {
+  padding: 57px 27px;
+  background: url('./reactjs-icon 2.png') no-repeat right 120%;
+  background-size: 200px;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -.05em;
+}
+
+.facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
